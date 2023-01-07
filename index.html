@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Tutorials</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <br />
+
+    <p>
+      Hello, please provide the radius of your circle and I will give you the
+      area of your circle
+    </p>
+    <label for="radiusLabel" id="radiusLabel">Radius:</label><br>
+    <input type="text" name="radius" id ="radius">
+    <button type="submit" onclick = "calculateCircumference()">Submit</button>
+    <p id = "area"></p>
+    <hr />
+
     <p id="p1"></p>
     <p id="p2"></p>
     <p id="p3"></p>
 
     <label for="name">Color:</label>
-    <input type="text" name="color" id="color"><br /><br />
-    <button type="button" id = "myButton">Submit</button>
+    <input type="text" name="color" id="color" /><br /><br />
+    <button type="button" id="myButton">Submit</button><br />
+    <hr />
 
-<script src="index.js"></script>
-</body>
+    <label for="count" id="count">0</label><br />
+    <div class="div-center">
+      <button class="clickBtn" id="increase">increase</button>
+      <button class="clickBtn" id="decrease">decrease</button>
+      <button class="clickBtn" id="reset">reset</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>

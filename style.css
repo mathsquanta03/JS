@@ -8,3 +8,27 @@ p{
 body{
     background: orange;
 }
+
+#count{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+.div-center{
+    height: 300px;
+    width: 300px;
+    margin: 25px 42% 0px;
+}
+clickBtn{
+    
+    
+}
+#increase{
+    background-color: lightgreen;
+}
+#decrease{
+    background-color: lightgoldenrodyellow;
+}
+#reset{
+    background-color: darkred;
+}
